@@ -1,0 +1,47 @@
+body{
+    background-color :black;
+    color:white;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mainpage {
+    margin:2.5%;
+}
+
+#title {
+    font-weight: lighter;
+    color:red;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+    text-align: center;
+}
+
+.image-gallery img{
+  background-color: rgb(34, 34, 34);
+  border: 20px;
+  padding: 10px;
+  height: 15vw;
+  position: relative;
+  object-fit: cover;
+  display: flexbox;
+}
+
+.image-gallery img:hover {
+    cursor: pointer;
+    filter: brightness(50%);
+}
+
+.footer {
+    min-height: 50px;
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1%;
+}
